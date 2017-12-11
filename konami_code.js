@@ -13,6 +13,8 @@ function init() {
         
         if(index === code.length){
           alert("You  won")
+          index = 0;
+        
         }
       } else {
         index = 0;
